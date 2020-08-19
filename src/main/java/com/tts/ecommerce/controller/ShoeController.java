@@ -20,7 +20,7 @@ import com.tts.ecommerce.db.ShoeRepository;
 import com.tts.ecommerce.model.Shoe;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://shoestore-frontend.herokuapp.com/")
 @RequestMapping("/shoes")
 public class ShoeController {
 	
