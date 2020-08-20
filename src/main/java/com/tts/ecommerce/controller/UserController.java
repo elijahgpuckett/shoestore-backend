@@ -16,7 +16,7 @@ import com.tts.ecommerce.db.UserRepository;
 import com.tts.ecommerce.model.User;
 
 @RestController
-@CrossOrigin(origins = "https://shoestore-frontend.herokuapp.com/")
+@CrossOrigin
 @RequestMapping(path = "users")
 public class UserController {
 
